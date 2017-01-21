@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_1d801148be149d052073216cc12294c0f80f463e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Eman\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\okio-1.6.0_a020b8d12f5c9b7dba09206d2fc41b56e355a35c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_3dc05d0247e26610b13edff6b272701501ba7a82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_2b3b670a045cf987cffa9eab6f9da86fe63c55ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\palette-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b7105277df9a8013468215c451ddefac2499d3a">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-palette-v7-24.2.1_3d29cf57fd47e732e831f0de041e98fbab3e49a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_cd15f5a70cb4952e26a3559d8e3e2b8285d3c231.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.2.1_8661ea3e53e28d170c401ae864e9563d36c9b5e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v13\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e3c7e8ff9f476d0d93ee7b046fbe8037a2b822c0">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-support-v13-24.2.1_5cbf56f4f18f8fd418c29d527389de573f666aee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\libs\volley.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\volley_2b9881860d676cc07a3c62cf33c161974e2ea920.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\libs\volley.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\volley_2b9881860d676cc07a3c62cf33c161974e2ea920.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_6dafdd1cc827685349341c35a5478ec48032e143.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_cc752eddd74a069466debc65216a9b255daa34ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_c139c0b84d3a36de1555fc677cc42ae417ebe624.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Eman\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.1.2\7052283359001bb108753cb0583a887d3bf94c82\okhttp-3.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="7052283359001bb108753cb0583a887d3bf94c82">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\okhttp-3.1.2_5e4354034ec95a85466ad95ae8dffe41e80fa482.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Eman\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_8ecc084db3dc290ab91b983fdb825b50f5c19c63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Eman\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\okio-1.6.0_a020b8d12f5c9b7dba09206d2fc41b56e355a35c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Eman\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.1.2\7052283359001bb108753cb0583a887d3bf94c82\okhttp-3.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7052283359001bb108753cb0583a887d3bf94c82">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\okhttp-3.1.2_5e4354034ec95a85466ad95ae8dffe41e80fa482.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_e7e19a53742cf6347937598b9c06539eea08f95a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_fe5062207e064345e2374131e9892306640d3f69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_913c9f23502afe55e27875ec82d42b2f0bc88f3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_18a6cfd0326bb3f5096ec34d491c23292d4a5671.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_642f3d2a3a88f88dcadd26ea52d6f54653f70149.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_9c4d4f45372e3a4a73f05e0e3bde1c9c0ff71e41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_e10bdd819f3768cec80395b691d2178c2bff3af9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_e541bcc1ca3888df6ee0bd3eb3a382ab433cf1fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_1ed7eb4271f25409d558bf95c8dee1138f845142.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4e6470fe5081bd76bb727ea9d0d9de373ac5940b">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-gridlayout-v7-24.2.1_22eb4e9c0b58a2b9630d4757a3b35ec76e9da2e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\support-v13\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c07fb99b729345908dda75fadbbf882e300631ff">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_09d828ec2b2128aeb38e644ce6b20d7df5722ef4.jar" />
+    </item>
+
+</items>
