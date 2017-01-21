@@ -19,9 +19,12 @@
     <color name="photo_placeholder">#ccc</color>
 
     <!-- app palette -->
-    <color name="primary">#69F0AE</color>
-    <color name="accent">@color/primary</color> <!-- mono-color -->
-    <color name="primary_dark">#4aa87a</color>
+    <color name="primary">#00bcd4</color>
+    <color name="accent">#f50057</color> <!-- mono-color -->
+    <color name="primary_dark">#00838f</color>
+    <color name="background_light">#fafafa</color> <!-- grey 50 -->
+    <color name="background_super_dark">#ff292929</color>
+    <color name="hint_disabled_dark">#43000000</color> <!-- 26% black -->
 
 
     <color name="theme_primary">#04561A</color>
