@@ -52,6 +52,10 @@
         "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
+        "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\drawable\\scrim_gradient.xml",
+        "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\drawable\\scrim_gradient.xml"
+    },
+    {
         "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
         "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_btn_check_material.xml"
     },

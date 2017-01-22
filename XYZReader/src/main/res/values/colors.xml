@@ -25,6 +25,7 @@
     <color name="background_light">#fafafa</color> <!-- grey 50 -->
     <color name="background_super_dark">#ff292929</color>
     <color name="hint_disabled_dark">#43000000</color> <!-- 26% black -->
+    <color name="white">#ffffff</color>
 
 
     <color name="theme_primary">#04561A</color>
