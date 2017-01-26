@@ -25,6 +25,7 @@ import android.widget.TextView;
 
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.ImageLoader;
+import com.bumptech.glide.Glide;
 import com.example.xyzreader.R;
 import com.example.xyzreader.data.ArticleLoader;
 
@@ -48,7 +49,6 @@ public class ArticleDetailFragment extends Fragment implements
     private ColorDrawable mStatusBarColorDrawable;
 
     private int mTopInset;
-    private View mPhotoContainerView;
     private ImageView mPhotoView;
     private int mScrollY;
     private boolean mIsCard = false;
@@ -113,7 +113,6 @@ public class ArticleDetailFragment extends Fragment implements
 
 
         mPhotoView = (ImageView) mRootView.findViewById(R.id.photo);
-        mPhotoContainerView = mRootView.findViewById(R.id.photo_container);
 
         mStatusBarColorDrawable = new ColorDrawable(0);
 
@@ -128,7 +127,7 @@ public class ArticleDetailFragment extends Fragment implements
         });
 
         bindViews();
-        updateStatusBar();
+       // updateStatusBar();
         return mRootView;
     }
 
@@ -168,44 +167,33 @@ public class ArticleDetailFragment extends Fragment implements
 
         TextView titleView = (TextView) mRootView.findViewById(R.id.article_title);
         TextView bylineView = (TextView) mRootView.findViewById(R.id.article_byline);
-        bylineView.setMovementMethod(new LinkMovementMethod());
         TextView bodyView = (TextView) mRootView.findViewById(R.id.article_body);
+
         bodyView.setTypeface(Typeface.createFromAsset(getResources().getAssets(), "Rosario-Regular.ttf"));
 
         if (mCursor != null) {
-            mRootView.setAlpha(0);
+//            mRootView.setAlpha(0);
             mRootView.setVisibility(View.VISIBLE);
-            mRootView.animate().alpha(1);
+//            mRootView.animate().alpha(1);
             titleView.setText(mCursor.getString(ArticleLoader.Query.TITLE));
-            bylineView.setText(Html.fromHtml(
-                    DateUtils.getRelativeTimeSpanString(
-                            mCursor.getLong(ArticleLoader.Query.PUBLISHED_DATE),
-                            System.currentTimeMillis(), DateUtils.HOUR_IN_MILLIS,
-                            DateUtils.FORMAT_ABBREV_ALL).toString()
-                            + " by <font color='#ffffff'>"
-                            + mCursor.getString(ArticleLoader.Query.AUTHOR)
-                            + "</font>"));
+//            bylineView.setText(Html.fromHtml(
+//                    DateUtils.getRelativeTimeSpanString(
+//                            mCursor.getLong(ArticleLoader.Query.PUBLISHED_DATE),
+//                            System.currentTimeMillis(), DateUtils.HOUR_IN_MILLIS,
+//                            DateUtils.FORMAT_ABBREV_ALL).toString()
+//                            + " by <font color='#ffffff'>"
+//                            + mCursor.getString(ArticleLoader.Query.AUTHOR)
+//                            + "</font>"));
+            bylineView.setText( DateUtils.getRelativeTimeSpanString(
+                    mCursor.getLong(ArticleLoader.Query.PUBLISHED_DATE),
+                    System.currentTimeMillis(), DateUtils.HOUR_IN_MILLIS,
+                    DateUtils.FORMAT_ABBREV_ALL).toString()
+                    + " by "
+                    + mCursor.getString(ArticleLoader.Query.AUTHOR));
             bodyView.setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY)));
-            ImageLoaderHelper.getInstance(getActivity()).getImageLoader()
-                    .get(mCursor.getString(ArticleLoader.Query.PHOTO_URL), new ImageLoader.ImageListener() {
-                        @Override
-                        public void onResponse(ImageLoader.ImageContainer imageContainer, boolean b) {
-                            Bitmap bitmap = imageContainer.getBitmap();
-                            if (bitmap != null) {
-                                Palette p = Palette.generate(bitmap, 12);
-                                mMutedColor = p.getDarkMutedColor(0xFF333333);
-                                mPhotoView.setImageBitmap(imageContainer.getBitmap());
-                                mRootView.findViewById(R.id.meta_bar)
-                                        .setBackgroundColor(mMutedColor);
-                                updateStatusBar();
-                            }
-                        }
 
-                        @Override
-                        public void onErrorResponse(VolleyError volleyError) {
-
-                        }
-                    });
+            Glide.with(getActivity()).load(mCursor.getString(ArticleLoader.Query.PHOTO_URL))
+                    .into(mPhotoView);
         } else {
             mRootView.setVisibility(View.GONE);
             titleView.setText("N/A");
@@ -244,14 +232,4 @@ public class ArticleDetailFragment extends Fragment implements
         bindViews();
     }
 
-    public int getUpButtonFloor() {
-        if (mPhotoContainerView == null || mPhotoView.getHeight() == 0) {
-            return Integer.MAX_VALUE;
-        }
-
-        // account for parallax
-        return mIsCard
-                ? (int) mPhotoContainerView.getTranslationY() + mPhotoView.getHeight() - mScrollY
-                : mPhotoView.getHeight() - mScrollY;
-    }
 }

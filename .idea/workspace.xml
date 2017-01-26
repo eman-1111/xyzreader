@@ -9,18 +9,15 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="353c884b-f5b0-4cd5-a3ee-fe43d09b2f80" name="Default" comment="refactor: Add Toolbar &amp; use AppCompat &amp; change color">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ThreeTwoImageView.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/picasso-2.5.2_383228fd195ee0587f07c216d577a7c6907bf0db.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/picasso_2_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-land-v13/values-sw600dp-land-v13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/drawable/scrim_gradient.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ThreeTwoImageView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XYZReader/src/main/res/drawable/scrim_gradient.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/DynamicHeightNetworkImageView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/DynamicHeightNetworkImageView.java" afterPath="" />
+    <list default="true" id="353c884b-f5b0-4cd5-a3ee-fe43d09b2f80" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/glide-3.7.0_f799365b8eac685782ae0abbabad9cb4465b57dd.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/glide_3_7_0.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/picasso_2_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleDetailFragment$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-land-v13/values-sw600dp-land-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/picasso-2.5.2_383228fd195ee0587f07c216d577a7c6907bf0db.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -30,19 +27,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_XYZReader_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_XYZReader_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_XYZReader_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_XYZReader_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_XYZReader_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_XYZReader_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$bool.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$bool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$color.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$drawable.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$integer.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$bool.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$bool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$color.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$dimen.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$drawable.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$fraction.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$fraction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/design/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$id.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$integer.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$integer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$layout.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$layout.class" />
@@ -51,6 +37,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$string.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$style.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$styleable.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleDetailFragment$2.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleDetailFragment$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleDetailFragment.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleDetailFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleListActivity$1.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleListActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleListActivity$Adapter$1.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleListActivity$Adapter$1.class" />
@@ -58,7 +45,37 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleListActivity$ViewHolder.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleListActivity$ViewHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleListActivity.class" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/classes/debug/com/example/xyzreader/ui/ArticleListActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/packageDebug/zip-cache/xhRxMeXS_PVTd6CtptOpbmmfslI=" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/packageDebug/zip-cache/xhRxMeXS_PVTd6CtptOpbmmfslI=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_fe5062207e064345e2374131e9892306640d3f69.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_fe5062207e064345e2374131e9892306640d3f69.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_3dc05d0247e26610b13edff6b272701501ba7a82.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_3dc05d0247e26610b13edff6b272701501ba7a82.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.2.1_8661ea3e53e28d170c401ae864e9563d36c9b5e5.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.2.1_8661ea3e53e28d170c401ae864e9563d36c9b5e5.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_9c4d4f45372e3a4a73f05e0e3bde1c9c0ff71e41.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_9c4d4f45372e3a4a73f05e0e3bde1c9c0ff71e41.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-gridlayout-v7-24.2.1_22eb4e9c0b58a2b9630d4757a3b35ec76e9da2e2.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-gridlayout-v7-24.2.1_22eb4e9c0b58a2b9630d4757a3b35ec76e9da2e2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-palette-v7-24.2.1_3d29cf57fd47e732e831f0de041e98fbab3e49a9.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-palette-v7-24.2.1_3d29cf57fd47e732e831f0de041e98fbab3e49a9.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_913c9f23502afe55e27875ec82d42b2f0bc88f3b.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_913c9f23502afe55e27875ec82d42b2f0bc88f3b.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_2b3b670a045cf987cffa9eab6f9da86fe63c55ee.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_2b3b670a045cf987cffa9eab6f9da86fe63c55ee.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_c139c0b84d3a36de1555fc677cc42ae417ebe624.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_c139c0b84d3a36de1555fc677cc42ae417ebe624.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_18a6cfd0326bb3f5096ec34d491c23292d4a5671.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_18a6cfd0326bb3f5096ec34d491c23292d4a5671.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_cd15f5a70cb4952e26a3559d8e3e2b8285d3c231.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_cd15f5a70cb4952e26a3559d8e3e2b8285d3c231.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_e10bdd819f3768cec80395b691d2178c2bff3af9.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_e10bdd819f3768cec80395b691d2178c2bff3af9.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-v13-24.2.1_5cbf56f4f18f8fd418c29d527389de573f666aee.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-v13-24.2.1_5cbf56f4f18f8fd418c29d527389de573f666aee.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_cc752eddd74a069466debc65216a9b255daa34ed.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_cc752eddd74a069466debc65216a9b255daa34ed.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_642f3d2a3a88f88dcadd26ea52d6f54653f70149.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_642f3d2a3a88f88dcadd26ea52d6f54653f70149.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/debug_4c5d6be8354606d7f427cd63ebf30f25f2da5516.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/debug_4c5d6be8354606d7f427cd63ebf30f25f2da5516.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_09d828ec2b2128aeb38e644ce6b20d7df5722ef4.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_09d828ec2b2128aeb38e644ce6b20d7df5722ef4.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_1d801148be149d052073216cc12294c0f80f463e.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_1d801148be149d052073216cc12294c0f80f463e.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_1ed7eb4271f25409d558bf95c8dee1138f845142.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_1ed7eb4271f25409d558bf95c8dee1138f845142.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_6dafdd1cc827685349341c35a5478ec48032e143.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_6dafdd1cc827685349341c35a5478ec48032e143.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_e541bcc1ca3888df6ee0bd3eb3a382ab433cf1fd.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_e541bcc1ca3888df6ee0bd3eb3a382ab433cf1fd.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_e7e19a53742cf6347937598b9c06539eea08f95a.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_e7e19a53742cf6347937598b9c06539eea08f95a.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/okhttp-3.1.2_5e4354034ec95a85466ad95ae8dffe41e80fa482.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/okhttp-3.1.2_5e4354034ec95a85466ad95ae8dffe41e80fa482.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/okio-1.6.0_a020b8d12f5c9b7dba09206d2fc41b56e355a35c.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/okio-1.6.0_a020b8d12f5c9b7dba09206d2fc41b56e355a35c.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_8ecc084db3dc290ab91b983fdb825b50f5c19c63.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_8ecc084db3dc290ab91b983fdb825b50f5c19c63.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/volley_2b9881860d676cc07a3c62cf33c161974e2ea920.jar" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/pre-dexed/debug/volley_2b9881860d676cc07a3c62cf33c161974e2ea920.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_light.png" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_light.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_dark.png" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_dark.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_black_48dp.png" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_black_48dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/outputs/apk/XYZReader-debug.apk" afterPath="$PROJECT_DIR$/XYZReader/build/outputs/apk/XYZReader-debug.apk" />
@@ -72,26 +89,26 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/multi/values-land.json" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/multi/values-land.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/multi/values-sw600dp-land-v13.json" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/multi/values-sw600dp-land-v13.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/multi/values-v21.json" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/multi/values-v21.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/layout/list_item_article.xml" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/layout/list_item_article.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/values-land/values-land.xml" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/values-land/values-land.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/values-sw600dp-land-v13/values-sw600dp-land-v13.xml" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/values-sw600dp-land-v13/values-sw600dp-land-v13.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/values-sw600dp-v13/values-sw600dp-v13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/layout/fragment_article_detail.xml" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/layout/fragment_article_detail.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/values-v21/values-v21.xml" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/values-v21/values-v21.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/XYZReader/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleDetailFragment.java" afterPath="$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleDetailFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleListActivity.java" afterPath="$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/src/main/res/layout/list_item_article.xml" afterPath="$PROJECT_DIR$/XYZReader/src/main/res/layout/list_item_article.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/src/main/res/values-land/macro_layout.xml" afterPath="$PROJECT_DIR$/XYZReader/src/main/res/values-land/macro_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/src/main/res/values-sw600dp-land/macro_layout.xml" afterPath="$PROJECT_DIR$/XYZReader/src/main/res/values-sw600dp-land/macro_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/src/main/res/values-sw600dp/macro_layout.xml" afterPath="$PROJECT_DIR$/XYZReader/src/main/res/values-sw600dp/macro_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/XYZReader/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/src/main/res/values/macro_layout.xml" afterPath="$PROJECT_DIR$/XYZReader/src/main/res/values/macro_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XYZReader/src/main/res/layout/fragment_article_detail.xml" afterPath="$PROJECT_DIR$/XYZReader/src/main/res/layout/fragment_article_detail.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="xyzreader.iws" />
@@ -127,11 +144,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="macro_layout.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/values-land/macro_layout.xml">
+      <file leaf-file-name="fragment_article_detail.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/layout/fragment_article_detail.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="106" selection-start-line="0" selection-start-column="106" selection-end-line="0" selection-end-column="106" />
+              <folding>
+                <element signature="e#1484#1528#0" expanded="true" />
+                <element signature="e#2052#2086#0" expanded="true" />
+                <element signature="e#2128#2162#0" expanded="true" />
+                <element signature="e#2506#2540#0" expanded="true" />
+                <element signature="e#2576#2610#0" expanded="true" />
+                <element signature="e#2848#3395#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XYZReader/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -140,8 +177,8 @@
       <file leaf-file-name="ArticleListActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="152" column="47" selection-start-line="152" selection-start-column="47" selection-end-line="152" selection-end-column="47" />
+            <state relative-caret-position="155">
+              <caret line="137" column="48" selection-start-line="137" selection-start-column="48" selection-end-line="137" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,64 +186,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="macro_layout.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/values-w800dp/macro_layout.xml">
+      <file leaf-file-name="ArticleDetailFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleDetailFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+            <state relative-caret-position="276">
+              <caret line="195" column="38" selection-start-line="195" selection-start-column="38" selection-end-line="195" selection-end-column="38" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="macro_layout.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/values-sw600dp/macro_layout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/values/colors.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="24" column="33" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="macro_layout.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/values-sw600dp-land/macro_layout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="macro_layout.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/values/macro_layout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreeTwoImageView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ThreeTwoImageView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -1635,7 +1620,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="E:\MaterialDesign\xyzreader" value="4454864975488" />
+        <entry key="E:\MaterialDesign\xyzreader" value="4455215694217" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1889,11 +1874,7 @@
         <option value="$PROJECT_DIR$/XYZReader/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/XYZReader/src/main/res/layout/activity_article_list.xml" />
         <option value="$PROJECT_DIR$/XYZReader/src/main/res/layout/activity_article_detail.xml" />
-        <option value="$PROJECT_DIR$/XYZReader/src/main/res/layout/fragment_article_detail.xml" />
-        <option value="$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleDetailFragment.java" />
         <option value="$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleDetailActivity.java" />
-        <option value="$PROJECT_DIR$/XYZReader/build.gradle" />
-        <option value="$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleListActivity.java" />
         <option value="$PROJECT_DIR$/XYZReader/src/main/res/drawable/scrim_gradient.xml" />
         <option value="$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ThreeTwoImageView.java" />
         <option value="$PROJECT_DIR$/XYZReader/src/main/res/values/colors.xml" />
@@ -1903,6 +1884,10 @@
         <option value="$PROJECT_DIR$/XYZReader/src/main/res/values-sw600dp-land/macro_layout.xml" />
         <option value="$PROJECT_DIR$/XYZReader/src/main/res/values-w800dp/macro_layout.xml" />
         <option value="$PROJECT_DIR$/XYZReader/src/main/res/values-land/macro_layout.xml" />
+        <option value="$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleListActivity.java" />
+        <option value="$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleDetailFragment.java" />
+        <option value="$PROJECT_DIR$/XYZReader/build.gradle" />
+        <option value="$PROJECT_DIR$/XYZReader/src/main/res/layout/fragment_article_detail.xml" />
       </list>
     </option>
   </component>
@@ -1937,9 +1922,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1965,10 +1951,6 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1978,145 +1960,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="XYZReader" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="macro_layout.xml" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xyzreader" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="XYZReader" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dimens.xml" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xyzreader" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="XYZReader" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xyzreader" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="XYZReader" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xyzreader" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="XYZReader" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xyzreader" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="XYZReader" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xyzreader" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="XYZReader" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xyzreader" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xyzreader" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="XYZReader" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xyzreader" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2448,7 +2295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484991058578</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor: Add list_item_article design">
+      <created>1485066955615</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1485066955615</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2470,13 +2324,14 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30484116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30484116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5409556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5392491" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25945538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2486,7 +2341,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2503,21 +2357,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="refactor: Add Toolbar &amp; use AppCompat &amp; change color" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: Add Toolbar &amp; use AppCompat &amp; change color" />
+    <MESSAGE value="refactor: Add list_item_article design" />
+    <MESSAGE value="Refactor: Add glide, fix fragment_article design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor: Add glide, fix fragment_article design" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleDetailFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3638">
-          <caret line="244" column="16" selection-start-line="244" selection-start-column="16" selection-end-line="244" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/DrawInsetsFrameLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1445">
@@ -2542,13 +2390,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/DynamicHeightNetworkImageView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/DynamicHeightNetworkImageView.java" />
     <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ImageLoaderHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -2581,7 +2423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3638">
           <caret line="244" column="16" selection-start-line="244" selection-start-column="16" selection-end-line="244" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2609,13 +2450,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/DynamicHeightNetworkImageView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/DynamicHeightNetworkImageView.java" />
     <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ImageLoaderHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -2634,7 +2469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-360">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2721,38 +2555,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="77" column="23" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XYZReader/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/layout/activity_article_list.xml">
-      <provider editor-type-id="android-designer2">
+      <provider editor-type-id="android-manifest">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleDetailFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="178" column="41" selection-start-line="178" selection-start-column="41" selection-end-line="178" selection-end-column="41" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleDetailActivity.java">
@@ -2773,19 +2587,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/layout/activity_article_detail.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/values-sw600dp/dimens.xml">
@@ -2804,77 +2616,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/DynamicHeightNetworkImageView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XYZReader/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ThreeTwoImageView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/DynamicHeightNetworkImageView.java" />
     <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/drawable/scrim_gradient.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/layout/fragment_article_detail.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="152" column="47" selection-start-line="152" selection-start-column="47" selection-end-line="152" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/layout/list_item_article.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2882,14 +2628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/values-sw600dp/macro_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -2902,6 +2640,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/values-land/macro_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/values-w800dp/macro_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -2910,12 +2656,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/values-land/macro_layout.xml">
+    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/values-sw600dp/macro_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="49" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/layout/list_item_article.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/layout/activity_article_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ThreeTwoImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleDetailFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="195" column="38" selection-start-line="195" selection-start-column="38" selection-end-line="195" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XYZReader/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/java/com/example/xyzreader/ui/ArticleListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="137" column="48" selection-start-line="137" selection-start-column="48" selection-end-line="137" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/anim-v21/fab_state_list_anim.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XYZReader/src/main/res/layout/fragment_article_detail.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="106" selection-start-line="0" selection-start-column="106" selection-end-line="0" selection-end-column="106" />
+          <folding>
+            <element signature="e#1484#1528#0" expanded="true" />
+            <element signature="e#2052#2086#0" expanded="true" />
+            <element signature="e#2128#2162#0" expanded="true" />
+            <element signature="e#2506#2540#0" expanded="true" />
+            <element signature="e#2576#2610#0" expanded="true" />
+            <element signature="e#2848#3395#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
   </component>
