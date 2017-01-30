@@ -2931,6 +2931,7 @@ containing a value of this type.
         public static final int exitUntilCollapsed=0x7f0d0017;
         public static final int expand_activities_button=0x7f0d0045;
         public static final int expanded_menu=0x7f0d0058;
+        public static final int fb_share=0x7f0d0085;
         public static final int fill=0x7f0d0030;
         public static final int fill_horizontal=0x7f0d0031;
         public static final int fill_vertical=0x7f0d0027;
@@ -2984,7 +2985,6 @@ containing a value of this type.
         public static final int search_src_text=0x7f0d006b;
         public static final int search_voice_btn=0x7f0d006f;
         public static final int select_dialog_listview=0x7f0d0070;
-        public static final int share_fab=0x7f0d0085;
         public static final int shortcut=0x7f0d005a;
         public static final int showCustom=0x7f0d0011;
         public static final int showHome=0x7f0d0012;

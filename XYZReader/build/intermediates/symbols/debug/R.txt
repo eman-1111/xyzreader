@@ -760,6 +760,7 @@ int id enterAlwaysCollapsed 0x7f0d0016
 int id exitUntilCollapsed 0x7f0d0017
 int id expand_activities_button 0x7f0d0045
 int id expanded_menu 0x7f0d0058
+int id fb_share 0x7f0d0085
 int id fill 0x7f0d0030
 int id fill_horizontal 0x7f0d0031
 int id fill_vertical 0x7f0d0027
@@ -813,7 +814,6 @@ int id search_plate 0x7f0d006a
 int id search_src_text 0x7f0d006b
 int id search_voice_btn 0x7f0d006f
 int id select_dialog_listview 0x7f0d0070
-int id share_fab 0x7f0d0085
 int id shortcut 0x7f0d005a
 int id showCustom 0x7f0d0011
 int id showHome 0x7f0d0012

@@ -59,8 +59,6 @@ public class ArticleDetailActivity extends AppCompatActivity
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setDisplayShowHomeEnabled(true);
-//            getSupportActionBar().setLogo(R.mipmap.ic_launcher);
-//            getSupportActionBar().setDisplayUseLogoEnabled(true);
         }
 
         if (savedInstanceState == null) {
