@@ -1,31 +1,49 @@
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/draw_insets_frame_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:id="@+id/cl_view"
+    android:tag="@string/size_small">
 
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="end"
-        android:fillViewport="true">
+        android:layout_marginStart="@dimen/activity_margins"
+        android:layout_marginEnd="@dimen/activity_margins"
+        android:clipToPadding="true"
+        android:fillViewport="true"
+        android:scrollbars="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <FrameLayout
+            <LinearLayout
+                android:id="@+id/layout_first"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:orientation="vertical">
 
-                <com.example.xyzreader.ui.ThreeTwoImageView
+
+                <ImageView
                     android:id="@+id/photo"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:maxHeight="@dimen/detail_card_max_width"
                     android:scaleType="centerCrop"
                     android:src="@drawable/scrim_gradient" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_second"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/article_title"
@@ -34,44 +52,42 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
                     android:fontFamily="sans-serif-condensed"
-                    android:paddingBottom="@dimen/detail_metabar_title_bottom_padding"
-                    android:textColor="@color/white"
+                    android:padding="@dimen/space_between_view"
+                    android:layout_marginTop="@dimen/space_between_view"
                     android:textStyle="bold" />
-            </FrameLayout>
-
-
 
                 <TextView
                     android:id="@+id/article_byline"
                     style="@style/TextAppearance.AppCompat.Caption"
                     android:layout_width="match_parent"
-                    android:gravity="end"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:paddingEnd="@dimen/detail_inner_horiz_margin"
-                    android:paddingStart="@dimen/detail_inner_horiz_margin"
+                    android:padding="@dimen/space_between_view"
+                    android:layout_marginBottom="@dimen/space_between_view"
                     android:textColor="@color/hint_disabled_dark" />
 
-            <TextView
-                android:id="@+id/article_body"
-                style="@style/TextAppearance.AppCompat.Body2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingStart="@dimen/detail_inner_horiz_margin"
-                android:paddingEnd="@dimen/detail_inner_horiz_margin"
-                android:lineSpacingMultiplier="@fraction/detail_body_line_spacing_multiplier"
-                android:textColorLink="@color/theme_accent" />
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/article_body"
+                    style="@style/TextAppearance.AppCompat.Body2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/space_between_view"
+                    android:textColorLink="@color/theme_accent" />
 
+
+            </LinearLayout>
+
+        </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
+
+
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fb_share"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|right"
-        android:layout_marginEnd="16dp"
+        android:elevation="@dimen/fab_elevation"
+        app:pressedTranslationZ="@dimen/fab_press_translation_z"
         android:src="@drawable/ic_share"
+        android:layout_marginEnd="@dimen/activity_margins"
+        app:layout_anchor="@id/layout_first"
         app:layout_anchorGravity="bottom|right|end" />
 </android.support.design.widget.CoordinatorLayout>
-
-

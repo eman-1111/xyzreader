@@ -36,16 +36,16 @@
         "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
         "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\activity_article_detail.xml",
         "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\layout\\activity_article_detail.xml"
     },
     {
-        "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_layout_tab_icon.xml"
+        "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
@@ -96,20 +96,16 @@
         "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_big_media.xml"
     },
     {
-        "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
-        "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\layout\\abc_simple_dropdown_hint.xml"
-    },
-    {
         "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_article.xml",
-        "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\layout\\list_item_article.xml"
-    },
-    {
         "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_article.xml",
+        "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\layout\\list_item_article.xml"
     },
     {
         "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
@@ -152,16 +148,16 @@
         "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_menu.xml"
     },
     {
-        "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\activity_article_list.xml",
-        "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\layout\\activity_article_list.xml"
-    },
-    {
         "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
         "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_navigation_item.xml"
     },
     {
         "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\activity_article_list.xml",
+        "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\layout\\activity_article_list.xml"
     },
     {
         "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
@@ -208,19 +204,19 @@
         "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
-        "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
         "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_expanded_menu_layout.xml"
     }
 ]

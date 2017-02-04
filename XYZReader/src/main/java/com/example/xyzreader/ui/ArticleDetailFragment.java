@@ -16,6 +16,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.ShareCompat;
@@ -55,7 +56,7 @@ public class ArticleDetailFragment extends Fragment implements
     private View mRootView;
 
 
-    private ImageView mPhotoView;
+    private ImageView mPhotoView, mPhotoViewBack;
 
     boolean isPermissionGranted = false;
     Bitmap mBitmap;
@@ -146,6 +147,12 @@ public class ArticleDetailFragment extends Fragment implements
 
                         }
                     });
+            CoordinatorLayout layout = (CoordinatorLayout) mRootView.findViewById(R.id.cl_view);
+            String resourceType = (String) layout.getTag();
+            if (resourceType.equals(getString(R.string.size_large))) {
+                mPhotoViewBack = (ImageView) mRootView.findViewById(R.id.photo_back);
+                Glide.with(getActivity()).load(mCursor.getString(ArticleLoader.Query.PHOTO_URL)).into(mPhotoViewBack);
+            }
             shareAction.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

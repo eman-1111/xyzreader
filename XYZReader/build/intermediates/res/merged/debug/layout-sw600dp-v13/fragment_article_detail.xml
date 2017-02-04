@@ -1,0 +1,104 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cl_view"
+    android:tag="@string/size_large">
+    <ImageView
+        android:id="@+id/photo_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="@dimen/image_marrgin"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/activity_margins"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/activity_margins"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/layout_first"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/activity_margins"
+                android:layout_weight="0.6"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:maxHeight="@dimen/detail_card_max_width"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/scrim_gradient" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_second"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/article_title"
+                    style="@style/TextAppearance.AppCompat.Headline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:fontFamily="sans-serif-condensed"
+                    android:padding="@dimen/space_between_view"
+                    android:layout_marginTop="@dimen/space_between_view"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/article_byline"
+                    style="@style/TextAppearance.AppCompat.Caption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/space_between_view"
+                    android:layout_marginBottom="@dimen/space_between_view"
+                    android:textColor="@color/hint_disabled_dark" />
+
+                <TextView
+                    android:id="@+id/article_body"
+                    style="@style/TextAppearance.AppCompat.Body2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/space_between_view"
+                    android:textColorLink="@color/theme_accent" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fb_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/fab_elevation"
+        app:pressedTranslationZ="@dimen/fab_press_translation_z"
+        android:src="@drawable/ic_share"
+        app:layout_anchor="@id/layout_first"
+        android:layout_marginEnd="@dimen/activity_margins"
+        android:paddingEnd="@dimen/space_between_view"
+        app:layout_anchorGravity="bottom|right|end" />
+</android.support.design.widget.CoordinatorLayout>

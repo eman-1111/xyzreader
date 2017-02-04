@@ -1,0 +1,14 @@
+<resources>
+
+
+    <dimen name="list_side_margin">32dp</dimen>
+    <integer name="list_column_count">2</integer>
+
+
+    <dimen name="space_between_view">16dp</dimen>
+    <dimen name="detail_card_max_width">500dp</dimen>
+    <dimen name="activity_margins">128dp</dimen>
+    <dimen name="image_marrgin">128dp</dimen>
+
+
+</resources>
