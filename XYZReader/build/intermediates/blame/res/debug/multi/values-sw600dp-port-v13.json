@@ -68,7 +68,14 @@
                     "endOffset": 246
                 },
                 "from": {
-                    "file": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\values-sw600dp-port\\dimens.xml"
+                    "file": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\values-sw600dp-port\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 21,
+                        "endColumn": 47,
+                        "endOffset": 64
+                    }
                 }
             },
             {
@@ -99,7 +106,14 @@
                     "endOffset": 346
                 },
                 "from": {
-                    "file": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\values-sw600dp-port\\dimens.xml"
+                    "file": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\values-sw600dp-port\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 70,
+                        "endColumn": 49,
+                        "endOffset": 115
+                    }
                 }
             }
         ]

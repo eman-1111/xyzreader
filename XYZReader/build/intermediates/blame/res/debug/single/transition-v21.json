@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\transition-v21\\grid_exit.xml",
+        "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\transition-v21\\grid_exit.xml"
+    },
+    {
+        "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\transition-v21\\details_window_return_transition.xml",
+        "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\transition-v21\\details_window_return_transition.xml"
+    },
+    {
+        "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\transition-v21\\details_window_enter_transition.xml",
+        "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\transition-v21\\details_window_enter_transition.xml"
+    }
+]

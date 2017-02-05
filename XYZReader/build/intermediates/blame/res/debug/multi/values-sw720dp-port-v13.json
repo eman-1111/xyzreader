@@ -35,14 +35,7 @@
                     "endOffset": 199
                 },
                 "from": {
-                    "file": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\values-sw720dp-port\\dimens.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 281,
-                        "endColumn": 45,
-                        "endOffset": 322
-                    }
+                    "file": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\values-sw720dp-port\\dimens.xml"
                 }
             },
             {
@@ -66,14 +59,7 @@
                     "endOffset": 297
                 },
                 "from": {
-                    "file": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\values-sw720dp-port\\dimens.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 125,
-                        "endColumn": 49,
-                        "endOffset": 170
-                    }
+                    "file": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\values-sw720dp-port\\dimens.xml"
                 }
             },
             {
@@ -85,7 +71,14 @@
                     "endOffset": 347
                 },
                 "from": {
-                    "file": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\values-sw720dp-port\\dimens.xml"
+                    "file": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\values-sw720dp-port\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 70,
+                        "endColumn": 49,
+                        "endOffset": 115
+                    }
                 }
             }
         ]

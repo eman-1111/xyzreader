@@ -137,6 +137,7 @@ public class ArticleDetailFragment extends Fragment implements
 
             Glide.with(getActivity()).load(mCursor.getString(ArticleLoader.Query.PHOTO_URL))
                     .asBitmap()
+                    .placeholder(R.drawable.place_holder)
                     .into(new SimpleTarget<Bitmap>() {
                         @Override
                         public void onResourceReady(Bitmap resource, GlideAnimation<? super Bitmap> glideAnimation) {

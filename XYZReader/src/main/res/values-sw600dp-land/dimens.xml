@@ -4,7 +4,7 @@
 
 
     <dimen name="list_side_margin">64dp</dimen>
-    <integer name="list_column_count">3</integer>
+    <integer name="list_column_count">4</integer>
 
 
     <dimen name="space_between_view">16dp</dimen>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="AppTheme.ArticleListActivity" parent="@style/Theme.Bacon">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowExitTransition">@transition/grid_exit</item>
+    </style>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>
     <style name="Base.TextAppearance.AppCompat.Body1" parent="android:TextAppearance.Material.Body1"/>
     <style name="Base.TextAppearance.AppCompat.Body2" parent="android:TextAppearance.Material.Body2"/>
@@ -251,15 +255,11 @@
     </style>
     <style name="Platform.ThemeOverlay.AppCompat.Dark"/>
     <style name="Platform.ThemeOverlay.AppCompat.Light"/>
-    <style name="SettingsTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
-        <item name="android:colorPrimary">@color/primary</item>
-        <item name="android:colorPrimaryDark">@color/primary_dark</item>
-        <item name="android:colorBackground">@color/background_light</item>
-        <item name="android:colorAccent">@color/accent</item>
-        <item name="android:navigationBarColor">@color/background_super_dark</item>
-        <item name="android:statusBarColor">@color/background_super_dark</item>
-        <item name="android:textColorHint">@color/hint_disabled_dark</item>
-        <item name="android:windowBackground">@color/background_light</item>
+    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="toolbarStyle">@style/Toolbar</item>
     </style>
     <style name="Widget.Design.AppBarLayout" parent="Base.Widget.Design.AppBarLayout">
         <item name="android:stateListAnimator">@anim/design_appbar_state_list_animator</item>
