@@ -44,8 +44,8 @@ public class ArticleListActivity extends AppCompatActivity implements
 
     private SwipeRefreshLayout mSwipeRefreshLayout;
     private RecyclerView mRecyclerView;
-     final String STARTING_POSITION = "STARTING_POSITION";
-    static final String CURRENT_POSITION = "CURRENT_POSITION";
+    final String STARTING_POSITION = "STARTING_POSITION";
+    final String CURRENT_POSITION = "CURRENT_POSITION";
     private boolean mIsRefreshing = false;
     private Bundle mTmpReenterState;
 
