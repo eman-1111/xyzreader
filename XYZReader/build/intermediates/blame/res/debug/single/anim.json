@@ -20,10 +20,6 @@
         "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_bottom_sheet_slide_in.xml"
-    },
-    {
         "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
         "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_out_top.xml"
     },
@@ -38,10 +34,6 @@
     {
         "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
         "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.1\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
