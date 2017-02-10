@@ -3,15 +3,15 @@ package com.example.xyzreader.ui;
 import android.Manifest;
 import android.app.Fragment;
 import android.app.LoaderManager;
+import android.content.Context;
 import android.content.Intent;
 import android.content.Loader;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.graphics.Bitmap;
-import android.graphics.Color;
 import android.graphics.Rect;
 import android.graphics.Typeface;
-import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -21,12 +21,9 @@ import android.support.annotation.Nullable;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.ShareCompat;
 import android.support.v4.view.ViewCompat;
-import android.support.v7.graphics.Palette;
 import android.text.Html;
 import android.text.format.DateUtils;
-import android.text.method.LinkMovementMethod;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -35,13 +32,11 @@ import android.view.ViewTreeObserver;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.ImageLoader;
-import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.animation.GlideAnimation;
-import com.bumptech.glide.request.target.SimpleTarget;
+
 import com.example.xyzreader.R;
 import com.example.xyzreader.data.ArticleLoader;
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
 
 /**
  * A fragment representing a single Article detail screen. This fragment is
@@ -145,26 +140,15 @@ public class ArticleDetailFragment extends Fragment implements
                     + mCursor.getString(ArticleLoader.Query.AUTHOR));
             bodyView.setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY)));
 
-            Glide.with(getActivity()).load(mCursor.getString(ArticleLoader.Query.PHOTO_URL))
-                    .asBitmap()
-                    .placeholder(R.drawable.place_holder)
-                    .into(new SimpleTarget<Bitmap>() {
-                        @Override
-                        public void onResourceReady(Bitmap resource, GlideAnimation<? super Bitmap> glideAnimation) {
+            loadImage(getActivity(), mCursor.getString(ArticleLoader.Query.PHOTO_URL));
 
-                            mPhotoView.setImageBitmap(resource);
-                            startPostponedEnterTransition();
-                            mBitmap = resource;
-
-                        }
-                    });
             String transitionName = getString(R.string.transition_photo) + String.valueOf(mArticlePosition);
             ViewCompat.setTransitionName(mPhotoView, transitionName);
             CoordinatorLayout layout = (CoordinatorLayout) mRootView.findViewById(R.id.cl_view);
             String resourceType = (String) layout.getTag();
             if (resourceType.equals(getString(R.string.size_large))) {
                 mPhotoViewBack = (ImageView) mRootView.findViewById(R.id.photo_back);
-                Glide.with(getActivity()).load(mCursor.getString(ArticleLoader.Query.PHOTO_URL)).into(mPhotoViewBack);
+                Picasso.with(getActivity()).load(mCursor.getString(ArticleLoader.Query.PHOTO_URL)).into(mPhotoViewBack);
             }
             shareAction.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -269,6 +253,35 @@ public class ArticleDetailFragment extends Fragment implements
             Log.v(TAG, "Permission: " + permissions[0] + "was " + grantResults[0]);
             isPermissionGranted = true;
         }
+    }
+
+    private Target mTarget;
+
+    void loadImage(Context context, String url) {
+
+
+        mTarget = new Target() {
+            @Override
+            public void onBitmapLoaded (final Bitmap bitmap, Picasso.LoadedFrom from){
+                mBitmap = bitmap;
+                mPhotoView.setImageBitmap(bitmap);
+                startPostponedEnterTransition();
+            }
+
+            @Override
+            public void onBitmapFailed(Drawable errorDrawable) {
+
+            }
+
+            @Override
+            public void onPrepareLoad(Drawable placeHolderDrawable) {
+
+            }
+        };
+
+        Picasso.with(context)
+                .load(url)
+                .into(mTarget);
     }
 
     protected void shareAction(String Title, String body) {

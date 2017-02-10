@@ -1,0 +1,121 @@
+[
+    {
+        "outputFile": "E:\\MaterialDesign\\xyzreader\\XYZReader\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-sw720dp-port-v13\\values-sw720dp-port-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\values-sw720dp-port\\dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 231,
+                        "endColumn": 48,
+                        "endOffset": 275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 104,
+                    "endColumn": 53,
+                    "endOffset": 153
+                },
+                "from": {
+                    "file": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\values-sw720dp-port\\dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 176,
+                        "endColumn": 53,
+                        "endOffset": 225
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 158,
+                    "endColumn": 45,
+                    "endOffset": 199
+                },
+                "from": {
+                    "file": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\values-sw720dp-port\\dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 281,
+                        "endColumn": 45,
+                        "endOffset": 322
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 204,
+                    "endColumn": 47,
+                    "endOffset": 247
+                },
+                "from": {
+                    "file": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\values-sw720dp-port\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 21,
+                        "endColumn": 47,
+                        "endOffset": 64
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 252,
+                    "endColumn": 49,
+                    "endOffset": 297
+                },
+                "from": {
+                    "file": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\values-sw720dp-port\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 125,
+                        "endColumn": 49,
+                        "endOffset": 170
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 302,
+                    "endColumn": 49,
+                    "endOffset": 347
+                },
+                "from": {
+                    "file": "E:\\MaterialDesign\\xyzreader\\XYZReader\\src\\main\\res\\values-sw720dp-port\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 70,
+                        "endColumn": 49,
+                        "endOffset": 115
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,11 +1,11 @@
 <resources>
 
 
-    <dimen name="fab_elevation">4dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
     <dimen name="elevation">4dp</dimen>
     <dimen name="card_margins">4dp</dimen>
 
-    <dimen name="fab_press_translation_z">8dp</dimen>
+    <dimen name="fab_press_translation_z">12dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
 
     <dimen name="list_side_margin">16dp</dimen>

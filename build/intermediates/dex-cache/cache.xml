@@ -174,6 +174,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Eman\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\picasso-2.5.2_383228fd195ee0587f07c216d577a7c6907bf0db.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\exploded-aar\com.android.support\palette-v7\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -243,15 +252,6 @@
         revision="25.0.0"
         sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
         <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_9c4d4f45372e3a4a73f05e0e3bde1c9c0ff71e41.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Eman\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="E:\MaterialDesign\xyzreader\XYZReader\build\intermediates\pre-dexed\debug\glide-3.7.0_f799365b8eac685782ae0abbabad9cb4465b57dd.jar" />
     </item>
     <item
         is-multidex="false"

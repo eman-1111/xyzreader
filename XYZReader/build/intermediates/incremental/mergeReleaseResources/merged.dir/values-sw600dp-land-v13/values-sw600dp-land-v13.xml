@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_margins">184dp</dimen>
+    <dimen name="detail_card_max_width">300dp</dimen>
+    <dimen name="list_side_margin">64dp</dimen>
+    <dimen name="space_between_view">16dp</dimen>
+    <integer name="list_column_count">4</integer>
+</resources>
