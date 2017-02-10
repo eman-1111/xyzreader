@@ -1,16 +1,17 @@
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cl_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/cl_view"
     android:tag="@string/size_large">
+
     <ImageView
         android:id="@+id/photo_back"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/image_marrgin"
         android:adjustViewBounds="true"
-        android:scaleType="centerCrop"
-        android:layout_marginBottom="@dimen/image_marrgin"/>
+        android:scaleType="centerCrop" />
 
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -39,9 +40,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
+                    android:background="@drawable/place_holder"
                     android:maxHeight="@dimen/detail_card_max_width"
                     android:scaleType="fitXY"
-                    android:background="@drawable/place_holder"
                     android:src="@drawable/scrim_gradient" />
 
             </LinearLayout>
@@ -60,9 +61,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
+                    android:layout_marginTop="@dimen/space_between_view"
                     android:fontFamily="sans-serif-condensed"
                     android:padding="@dimen/space_between_view"
-                    android:layout_marginTop="@dimen/space_between_view"
                     android:textStyle="bold" />
 
                 <TextView
@@ -70,8 +71,8 @@
                     style="@style/TextAppearance.AppCompat.Caption"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="@dimen/space_between_view"
                     android:layout_marginBottom="@dimen/space_between_view"
+                    android:padding="@dimen/space_between_view"
                     android:textColor="@color/hint_disabled_dark" />
 
                 <TextView
@@ -88,7 +89,6 @@
         </LinearLayout>
 
     </android.support.v4.widget.NestedScrollView>
-
 
 
     <android.support.design.widget.FloatingActionButton
