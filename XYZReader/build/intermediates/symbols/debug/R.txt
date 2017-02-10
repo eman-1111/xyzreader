@@ -717,10 +717,10 @@ int id alignMargins 0x7f0d0037
 int id all 0x7f0d0032
 int id always 0x7f0d003a
 int id appbar 0x7f0d0071
-int id article_body 0x7f0d0087
-int id article_byline 0x7f0d0086
+int id article_body 0x7f0d0086
+int id article_byline 0x7f0d0085
 int id article_subtitle 0x7f0d008a
-int id article_title 0x7f0d0085
+int id article_title 0x7f0d0084
 int id auto 0x7f0d0021
 int id beginning 0x7f0d0038
 int id bottom 0x7f0d0022
@@ -754,7 +754,7 @@ int id enterAlwaysCollapsed 0x7f0d0016
 int id exitUntilCollapsed 0x7f0d0017
 int id expand_activities_button 0x7f0d0045
 int id expanded_menu 0x7f0d0058
-int id fb_share 0x7f0d0081
+int id fb_share 0x7f0d0087
 int id fill 0x7f0d0030
 int id fill_horizontal 0x7f0d0031
 int id fill_vertical 0x7f0d0027
@@ -767,8 +767,8 @@ int id ifRoom 0x7f0d003c
 int id image 0x7f0d0046
 int id info 0x7f0d0096
 int id item_touch_helper_previous_elevation 0x7f0d0005
-int id layout_first 0x7f0d0082
-int id layout_second 0x7f0d0084
+int id layout_first 0x7f0d0081
+int id layout_second 0x7f0d0083
 int id left 0x7f0d0028
 int id line1 0x7f0d0090
 int id line3 0x7f0d0094
@@ -785,7 +785,7 @@ int id normal 0x7f0d000c
 int id pager 0x7f0d0073
 int id parallax 0x7f0d002c
 int id parentPanel 0x7f0d004d
-int id photo 0x7f0d0083
+int id photo 0x7f0d0082
 int id photo_back 0x7f0d0088
 int id pin 0x7f0d002d
 int id progress_circular 0x7f0d0006

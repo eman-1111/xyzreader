@@ -2881,10 +2881,10 @@ containing a value of this type.
         public static final int all=0x7f0d0032;
         public static final int always=0x7f0d003a;
         public static final int appbar=0x7f0d0071;
-        public static final int article_body=0x7f0d0087;
-        public static final int article_byline=0x7f0d0086;
+        public static final int article_body=0x7f0d0086;
+        public static final int article_byline=0x7f0d0085;
         public static final int article_subtitle=0x7f0d008a;
-        public static final int article_title=0x7f0d0085;
+        public static final int article_title=0x7f0d0084;
         public static final int auto=0x7f0d0021;
         public static final int beginning=0x7f0d0038;
         public static final int bottom=0x7f0d0022;
@@ -2918,7 +2918,7 @@ containing a value of this type.
         public static final int exitUntilCollapsed=0x7f0d0017;
         public static final int expand_activities_button=0x7f0d0045;
         public static final int expanded_menu=0x7f0d0058;
-        public static final int fb_share=0x7f0d0081;
+        public static final int fb_share=0x7f0d0087;
         public static final int fill=0x7f0d0030;
         public static final int fill_horizontal=0x7f0d0031;
         public static final int fill_vertical=0x7f0d0027;
@@ -2931,8 +2931,8 @@ containing a value of this type.
         public static final int image=0x7f0d0046;
         public static final int info=0x7f0d0096;
         public static final int item_touch_helper_previous_elevation=0x7f0d0005;
-        public static final int layout_first=0x7f0d0082;
-        public static final int layout_second=0x7f0d0084;
+        public static final int layout_first=0x7f0d0081;
+        public static final int layout_second=0x7f0d0083;
         public static final int left=0x7f0d0028;
         public static final int line1=0x7f0d0090;
         public static final int line3=0x7f0d0094;
@@ -2949,7 +2949,7 @@ containing a value of this type.
         public static final int pager=0x7f0d0073;
         public static final int parallax=0x7f0d002c;
         public static final int parentPanel=0x7f0d004d;
-        public static final int photo=0x7f0d0083;
+        public static final int photo=0x7f0d0082;
         public static final int photo_back=0x7f0d0088;
         public static final int pin=0x7f0d002d;
         public static final int progress_circular=0x7f0d0006;
