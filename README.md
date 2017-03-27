@@ -1,3 +1,4 @@
 # xyzreader
-Taking the app from a functional state to a production-ready state.by handling error cases, add accessibility features, allow for localization, add widgets, and add a library.
-https://www.udacity.com/course/advanced-android-app-development--ud855
+In this app, updating the look and feel of an app to meet Material Design specifications.
+
+https://www.udacity.com/course/material-design-for-android-developers--ud862
